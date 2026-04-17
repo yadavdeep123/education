@@ -1,0 +1,19 @@
+{
+  "name": "education",
+  "version": "1.0.0",
+  "description": "MERN Online Class Platform",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "build": "npm run build --prefix client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
